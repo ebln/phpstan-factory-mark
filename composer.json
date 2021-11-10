@@ -1,0 +1,33 @@
+{
+    "name": "ebln/phpstan-factory-mark",
+    "type": "library",
+    "description": "Userland marking interface for ebln/phpstan-factory-rule",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ebln",
+            "email": "34722048+ebln@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "php": "7.0 - 8.2"
+    },
+    "require-dev": {
+        "ergebnis/composer-normalize": "^2.15",
+        "phpstan/phpstan": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ebln\\PHPStan\\EnforceFactory\\": "src/"
+        }
+    },
+    "scripts": {
+        "quality": [
+            "composer normalize --dry-run",
+            "phpstan analyse",
+            "@style-check"
+        ],
+        "style-check": "php-cs-fixer fix -v --config=.php-cs-fixer.dist.php --using-cache=no --dry-run",
+        "style-fix": "php-cs-fixer fix -v --config=.php-cs-fixer.dist.php --using-cache=no"
+    }
+}

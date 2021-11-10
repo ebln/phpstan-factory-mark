@@ -1,0 +1,10 @@
+/*.tar               export-ignore
+/.gitattributes      export-ignore
+/.github             export-ignore
+/.gitignore          export-ignore
+/.idea               export-ignore
+/.php-cs-fixer.dist* export-ignore
+/.provision          export-ignore
+/makefile            export-ignore
+/phpstan*.neon       export-ignore
+/vendor              export-ignore

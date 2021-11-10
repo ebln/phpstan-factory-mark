@@ -1,0 +1,6 @@
+.DS_Store
+.php-cs-fixer*
+!.php-cs-fixer.dist.php
+/.idea/
+/build/
+/vendor/
