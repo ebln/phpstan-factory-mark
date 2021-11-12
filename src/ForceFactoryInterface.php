@@ -5,9 +5,9 @@ declare(strict_types=1);
 namespace Ebln\PHPStan\EnforceFactory;
 
 /**
- * Interface to mark classes you only want to be instanciated by certain factories
+ * Marks classes to be instanciated by certain factories
  */
-interface ForceFactory
+interface ForceFactoryInterface
 {
     /**
      * Defines classes allowed to instanciate the interface-implementor
