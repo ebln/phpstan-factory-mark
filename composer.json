@@ -1,8 +1,8 @@
 {
     "name": "ebln/phpstan-factory-mark",
-    "type": "library",
     "description": "Userland marking interface for ebln/phpstan-factory-rule",
     "license": "MIT",
+    "type": "library",
     "authors": [
         {
             "name": "ebln",
@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "php": "7.2 - 8.2"
+        "php": "7.4 - 8.4"
     },
     "require-dev": {
         "ergebnis/composer-normalize": "^2.15",
@@ -19,6 +19,11 @@
     "autoload": {
         "psr-4": {
             "Ebln\\PHPStan\\EnforceFactory\\": "src/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "ergebnis/composer-normalize": true
         }
     },
     "scripts": {
