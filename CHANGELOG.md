@@ -5,6 +5,16 @@ Intended to follow [«Keep a Changelog»](https://keepachangelog.com/en/)
 
 ----
 
+## [1.1.0] - 2024-06-02
+
+### Added
+
+- Supporting PHP until 8.4
+
+### Removed
+
+- PHP Support <7.4
+
 ## [1.0.0] - 2021-12-10
 
 ### Added
