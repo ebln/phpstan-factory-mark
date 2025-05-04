@@ -5,6 +5,12 @@ Intended to follow [«Keep a Changelog»](https://keepachangelog.com/en/)
 
 ----
 
+## [1.2.0] - 2025-05-04
+
+### Added
+
+- (dev-) support for PHPStan 2.0
+
 ## [1.1.0] - 2024-06-02
 
 ### Added
